@@ -1,0 +1,543 @@
+                                                                    @font-face {
+                                                                    font-family: 'RobotoCondensed-Regular';
+                                                                    src: url('fonts/RobotoCondensed-Regular.ttf');
+                                                                }
+                                                                
+                                                                @font-face {
+                                                                    font-family: 'arialregular';
+                                                                    src: url('./fonts/webfontkit/arial-webfont.woff2') format('woff2'), url('./fonts/webfontkit/arial-webfont.woff') format('woff');
+                                                                    font-weight: normal;
+                                                                    font-style: normal;
+                                                                }
+                                                                
+                                                                @font-face {
+                                                                    font-family: 'icomoon';
+                                                                    src: url('./fonts/icomoon/fonts/icomoon.eot?w50rin');
+                                                                    src: url('./fonts/icomoon/fonts/icomoon.eot?w50rin#iefix') format('embedded-opentype'), url('./fonts/icomoon/fonts/icomoon.ttf?w50rin') format('truetype'), url('./fonts/icomoon/fonts/icomoon.woff?w50rin') format('woff'), url('./fonts/icomoon/fonts/icomoon.svg?w50rin#icomoon') format('svg');
+                                                                    font-weight: normal;
+                                                                    font-style: normal;
+                                                                }
+                                                                
+                                                                [class^="icon-"],
+                                                                [class*=" icon-"] {
+                                                                    /* use !important to prevent issues with browser extensions that change fonts */
+                                                                    font-family: 'icomoon' !important;
+                                                                    speak: none;
+                                                                    font-style: normal;
+                                                                    font-weight: normal;
+                                                                    font-variant: normal;
+                                                                    text-transform: none;
+                                                                    line-height: 1;
+                                                                    /* Better Font Rendering =========== */
+                                                                    -webkit-font-smoothing: antialiased;
+                                                                    -moz-osx-font-smoothing: grayscale;
+                                                                }
+                                                                
+                                                                .icon-menu-three-horizontal-lines-symbol:before {
+                                                                    content: "\e900";
+                                                                    color: #fff;
+                                                                    font-size: 32px;
+                                                                    display: inline-block;
+                                                                    cursor: pointer;
+                                                                    padding: 10px 16px;
+                                                                    position: absolute;
+                                                                }
+                                                                
+                                                                h1,
+                                                                h3,
+                                                                h5,
+                                                                body {
+                                                                    margin: 0;
+                                                                }
+                                                                
+                                                                #pageContent {
+                                                                    width: 100%;
+                                                                    background-color: #dbe2ea;
+                                                                }
+                                                                
+                                                                #mainWraper {
+                                                                    width: 85%;
+                                                                    margin: auto;
+                                                                    background-color: #fff;
+                                                                    border-bottom: 1px solid #4297da;
+                                                                }
+                                                                
+                                                                #pageContentHeader {
+                                                                    background-color: #459add;
+                                                                }
+                                                                /* ************* Header **************/
+                                                                
+                                                                .activeText {
+                                                                    text-align: center;
+                                                                    color: #fff;
+                                                                    font-family: 'RobotoCondensed-Regular';
+                                                                    font-weight: 300;
+                                                                }
+                                                                
+                                                                .headerStyle {
+                                                                    background-color: #459add;
+                                                                }
+                                                                
+                                                                .menuImageIcon {
+                                                                    float: left;
+                                                                    width: 30px;
+                                                                    height: auto;
+                                                                    padding: 10px 16px;
+                                                                }
+                                                                
+                                                                .menuImageIcon:hover {
+                                                                    background-color: #555;
+                                                                }
+                                                                /* **********  Image Baner ********/
+                                                                
+                                                                .bannerImg {
+                                                                    width: 100%;
+                                                                    height: auto;
+                                                                }
+                                                                /************ Middle section left ***********/
+                                                                
+                                                                .subWrapper {
+                                                                    margin: auto;
+                                                                    width: 95%;
+                                                                    text-align: center;
+                                                                    padding-top: 60px;
+                                                                    padding-bottom: 10%;
+                                                                }
+                                                                
+                                                                .subWrapper h3 {
+                                                                    text-align: left;
+                                                                    font-family: 'arialregular';
+                                                                    font-weight: 300;
+                                                                    font-style: normal;
+                                                                    font-size: 181%;
+                                                                }
+                                                                
+                                                                .subWrapper h5 {
+                                                                    text-align: left;
+                                                                    font-family: 'arialregular';
+                                                                    font-size: 106%;
+                                                                    font-weight: 300;
+                                                                    color: #3dbbfb;
+                                                                    font-style: normal;
+                                                                    margin-top: 3px;
+                                                                }
+                                                                
+                                                                p {
+                                                                    text-align: left;
+                                                                    font-family: 'arialregular';
+                                                                    font-size: 76.5%;
+                                                                    font-style: normal;
+                                                                    font-weight: 100;
+                                                                    line-height: 22px;
+                                                                }
+                                                                
+                                                                .new {
+                                                                    margin-top: 35px;
+                                                                }
+                                                                
+                                                                .button {
+                                                                    background-color: #4196d9;
+                                                                    border: none;
+                                                                    color: white;
+                                                                    padding: 15px 32px;
+                                                                    text-align: center;
+                                                                    text-decoration: none;
+                                                                    display: inline-block;
+                                                                    font-size: 16px;
+                                                                    font-family: 'RobotoCondensed-Regular';
+                                                                    margin-top: 20px;
+                                                                }
+                                                                /************ Middle section Right ***********/
+                                                                
+                                                                .secSection {
+                                                                    margin: auto;
+                                                                    width: 95%;
+                                                                    padding-bottom: 10%;
+                                                                }
+                                                                
+                                                                .secSection h3 {
+                                                                    text-align: left;
+                                                                    font-family: 'RobotoCondensed-Regular';
+                                                                    font-weight: 300;
+                                                                    font-style: normal;
+                                                                    font-size: 150%;
+                                                                    margin-top: 15px;
+                                                                }
+                                                                
+                                                                .secSection h5 {
+                                                                    text-align: left;
+                                                                    font-family: 'RobotoCondensed-Regular';
+                                                                    font-weight: 300;
+                                                                    font-style: normal;
+                                                                    font-size: 100%;
+                                                                    color: #3dbbfb;
+                                                                    margin-top: 5px;
+                                                                }
+                                                                
+                                                                .Sidediv1 {
+                                                                    margin-top: 40px;
+                                                                    padding-bottom: 50px;
+                                                                    border-bottom: 1px solid #a7a7a7;
+                                                                }
+                                                                
+                                                                .box1 {
+                                                                    width: 90px;
+                                                                    height: 90px;
+                                                                    background-color: #469bde;
+                                                                    float: left;
+                                                                }
+                                                                
+                                                                .box1 .subBoxText {
+                                                                    color: #fff;
+                                                                    font-family: 'RobotoCondensed-Regular';
+                                                                    font-weight: 300;
+                                                                    font-style: normal;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .subBoxText {
+                                                                    padding-top: 7px;
+                                                                    padding-bottom: 7px;
+                                                                    background-color: #61a9e3;
+                                                                }
+                                                                
+                                                                .box1 .num {
+                                                                    color: #fff;
+                                                                    font-family: 'RobotoCondensed-Regular';
+                                                                    font-weight: 300;
+                                                                    font-style: normal;
+                                                                    font-size: 245%;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .sideText {
+                                                                    font-family: 'RobotoCondensed-Regular';
+                                                                    font-weight: 300;
+                                                                    font-style: normal;
+                                                                    margin-left: 120px;
+                                                                    clear: both;
+                                                                }
+                                                                
+                                                                .sideText p {
+                                                                    margin: 0;
+                                                                    padding-left: 22%;
+                                                                }
+                                                                /********** table css **********/
+                                                                
+                                                                table#bottmTable {
+                                                                    width: 100%;
+                                                                    padding-top: 7%;
+                                                                }
+                                                                
+                                                                th {
+                                                                    font-family: 'RobotoCondensed-Regular';
+                                                                    font-weight: 300;
+                                                                    font-style: normal;
+                                                                    font-size: 150%;
+                                                                    text-align: left;
+                                                                    padding-left: 23px;
+                                                                    letter-spacing: 0.0625em;
+                                                                }
+                                                                
+                                                                td {
+                                                                    font-family: 'RobotoCondensed-Regular';
+                                                                    font-weight: 300;
+                                                                    font-style: normal;
+                                                                    font-size: 87.5%;
+                                                                    text-align: left;
+                                                                    padding-top: 25px;
+                                                                    padding-bottom: 15px;
+                                                                    padding-left: 23px;
+                                                                    margin-right: 10px;
+                                                                    letter-spacing: 0.0625em;
+                                                                    border-bottom: 0.0625em solid #cac8c8;
+                                                                }
+                                                                /**********  MoreDetail page css **********/
+                                                                
+                                                                ol {
+                                                                    padding-top: 10px;
+                                                                }
+                                                                
+                                                                li {
+                                                                    text-align: left;
+                                                                    font-family: 'RobotoCondensed-Regular';
+                                                                    font-weight: 300;
+                                                                    font-style: normal;
+                                                                    font-size: 87.5%;
+                                                                    letter-spacing: 0.0625em;
+                                                                    line-height: 22px;
+                                                                }
+                                                                /*************** ThirdSection ***************/
+                                                                
+                                                                .TrirdSection {
+                                                                    margin: auto;
+                                                                    width: 85%;
+                                                                    padding-bottom: 7%;
+                                                                    background-color: #f3f3f3;
+                                                                }
+                                                                
+                                                                .ThirdSection #pageContent {
+                                                                    background-color: #fff;
+                                                                }
+                                                                
+                                                                #pageContentTwo {
+                                                                    width: 100%;
+                                                                    background-color: #4297da;
+                                                                }
+                                                                /*********** footer css ***************/
+                                                                
+                                                                #footer {
+                                                                    padding-bottom: 7%;
+                                                                }
+                                                                /*********** Navigation **************/
+                                                                
+                                                                ul.topnav {
+                                                                    list-style-type: none;
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                    overflow: hidden;
+                                                                    background-color: #459add;
+                                                                    position: relative;
+                                                                    left: 63px;
+                                                                    width: 80%;
+                                                                }
+                                                                
+                                                                ul.topnav li {
+                                                                    float: left;
+                                                                }
+                                                                
+                                                                ul.topnav li a {
+                                                                    display: inline-block;
+                                                                    color: #f2f2f2;
+                                                                    text-align: center;
+                                                                    padding: 14px 16px;
+                                                                    text-decoration: none;
+                                                                    font-size: 150%;
+                                                                }
+                                                                
+                                                                ul.topnav li a:hover {
+                                                                    background-color: #555;
+                                                                }
+                                                                /**************** Contact Page ***********/
+                                                                
+                                                                iframe {
+                                                                    border: 0;
+                                                                    margin: 0;
+                                                                }
+                                                                
+                                                                .mapClass {
+                                                                    width: 45%;
+                                                                    height: 45%;
+                                                                    text-align: left;
+                                                                }
+                                                                
+                                                                .map {
+                                                                    width: 100%;
+                                                                    height: 100%;
+                                                                    padding-top: 15px;
+                                                                }
+                                                                
+                                                                .Adress {
+                                                                    float: right;
+                                                                    max-width: 50%;
+                                                                    height: auto;
+                                                                }
+                                                                
+                                                                .Adress h3 {
+                                                                    text-align: left;
+                                                                    font-family: 'RobotoCondensed-Regular';
+                                                                    font-weight: 300;
+                                                                    font-style: normal;
+                                                                    font-size: 150%;
+                                                                    margin-top: 15px;
+                                                                }
+                                                                /***********  Form Css *******/
+                                                                
+                                                                .formElement {
+                                                                    width: 45%;
+                                                                    height: 42%;
+                                                                    height: auto;
+                                                                    float: right;
+                                                                    padding-top: 20px;
+                                                                    margin-top: 15px;
+                                                                    background-color: #24323d;
+                                                                }
+                                                                
+                                                                .LogInButton table {
+                                                                    width: 90%;
+                                                                    background-color: #24323d;
+                                                                    border: 0;
+                                                                    border-spacing: 0;
+                                                                    margin: auto;
+                                                                    margin-bottom: 30px;
+                                                                }
+                                                                
+                                                                #SignUP {
+                                                                    background-color: #1ab188;
+                                                                    text-align: center;
+                                                                    color: #fff;
+                                                                    padding: 0;
+                                                                    font-size: 14px;
+                                                                    padding-bottom: 5px;
+                                                                    padding-top: 5px;
+                                                                    width: 50%;
+                                                                }
+                                                                
+                                                                #LogIn {
+                                                                    background-color: #435259;
+                                                                    text-align: center;
+                                                                    color: #fff;
+                                                                    padding: 0;
+                                                                    font-size: 14px;
+                                                                    padding-bottom: 5px;
+                                                                    padding-top: 5px;
+                                                                    width: 50%;
+                                                                }
+                                                                
+                                                                #firstname,
+                                                                #Lastname,
+                                                                #email,
+                                                                #password,
+                                                                #submit {
+                                                                    margin-bottom: 15px;
+                                                                    border: 0;
+                                                                    padding: 5px;
+                                                                }
+                                                                
+                                                                #email,
+                                                                #password,
+                                                                #submit {
+                                                                    width: 90%;
+                                                                }
+                                                                
+                                                                #submit {
+                                                                    background-color: #1ab188;
+                                                                    color: white;
+                                                                }
+                                                                
+                                                                #firstname {
+                                                                    width: 40%;
+                                                                    float: left;
+                                                                    margin-left: 5%;
+                                                                }
+                                                                
+                                                                #Lastname {
+                                                                    width: 40%;
+                                                                    float: right;
+                                                                    margin-right: 5%;
+                                                                }
+                                                                
+                                                                #firstname,
+                                                                #Lastname,
+                                                                #email,
+                                                                #password {
+                                                                    background-color: #24323d;
+                                                                    border: 1px solid #fff;
+                                                                    color: #fff;
+                                                                }
+                                                                
+                                                                #LogInFrom {
+                                                                    display: none;
+                                                                }
+                                                                /*********  About page Css      *******/
+                                                                
+                                                                #myCanvas {
+                                                                    margin-left: -9px;
+                                                                }
+                                                                
+                                                                .AboutsubWrapper {
+                                                                    margin: auto;
+                                                                    width: 95%;
+                                                                    padding-bottom: 10%;
+                                                                }
+                                                                
+                                                                .AboutText {
+                                                                    margin-top: -75px;
+                                                                }
+                                                                
+                                                                .video {
+                                                                    width: 100%;
+                                                                    height: auto;
+                                                                    margin: auto;
+                                                                    text-align: center;
+                                                                }
+                                                                /*************  SVG Icon CSs *********/
+                                                                
+                                                                .container {
+                                                                    display: inline-block;
+                                                                    cursor: pointer;
+                                                                    margin-top: 10px;
+                                                                    margin-left: 10px;
+                                                                }
+                                                                
+                                                                .bar1,
+                                                                .bar2,
+                                                                .bar3 {
+                                                                    width: 35px;
+                                                                    height: 5px;
+                                                                    background-color: #333;
+                                                                    margin: 6px 0;
+                                                                    transition: 0.4s;
+                                                                }
+                                                                
+                                                                .change .bar1 {
+                                                                    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+                                                                    transform: rotate(-45deg) translate(-9px, 6px);
+                                                                }
+                                                                
+                                                                .change .bar2 {
+                                                                    opacity: 0;
+                                                                }
+                                                                
+                                                                .change .bar3 {
+                                                                    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+                                                                    transform: rotate(45deg) translate(-8px, -8px);
+                                                                }
+                                                                /*************** SignUP and Log In buttton */
+                                                                
+                                                                .LogInButton {
+                                                                    width: 100%;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .inner {
+                                                                    display: inline-block;
+                                                                }
+                                                                /***********   Sprite image ************/
+                                                                
+                                                                #navlist {
+                                                                    position: relative;
+                                                                    margin-bottom: 150px;
+                                                                    bottom: 112px;
+                                                                }
+                                                                
+                                                                #navlist li {
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                    list-style: none;
+                                                                    position: absolute;
+                                                                    top: 0;
+                                                                }
+                                                                
+                                                                #navlist li,
+                                                                #navlist a {
+                                                                    height: 68px;
+                                                                    display: block;
+                                                                }
+                                                                
+                                                                #face {
+                                                                    left: 0px;
+                                                                    width: 65px;
+                                                                    background: url('./img/sprite.png') 0 0;
+                                                                }
+                                                                
+                                                                #google {
+                                                                    left: 63px;
+                                                                    width: 64px;
+                                                                    background: url('./img/sprite.png') -258px 0;
+                                                                }
+                                                                
+                                                                #twitter {
+                                                                    left: 129px;
+                                                                    width: 58px;
+                                                                    background: url('./img/sprite.png') -691px 0;
